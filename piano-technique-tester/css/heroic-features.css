@@ -19,3 +19,13 @@ body {
 footer {
     margin: 50px 0;
 }
+
+
+
+.p-next-btn {
+    float: right;
+}
+
+.p-complete {
+    float: left;
+}
