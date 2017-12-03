@@ -1,4 +1,4 @@
-var level1 = [1, 2, 3, 4, 5, 6];
+var level1 = [];
 var level2 = [];
 var level3 = [];
 var level4 = [];
