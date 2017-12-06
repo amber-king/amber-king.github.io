@@ -20,7 +20,7 @@ $(document).ready(function() {
         $(".p-panel-1").hide();
         $(".p-panel-2").show();
         
-        $("#testone").setAttribute("data-content", "hi");
+        $(".p-list-display-btn").attr("data-content", "hi");
         
         listChosen = $(".form-control").val();
         
