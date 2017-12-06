@@ -67,7 +67,7 @@ $(document).ready(function() {
         listItemsRandom = shuffleArray(listItems).slice();
         
         
-        $(".p-help-btn").popover("toggle");
+        $('.p-help-btn').popover('toggle');
         
         
         $(".p-item-display").text(listItemsRandom[0]);
