@@ -66,6 +66,8 @@ $(document).ready(function() {
         
         listItemsRandom = shuffleArray(listItems).slice();
         
+        $(".p-list-display-btn").setAttribute("data-content", "hi");
+        
         $(".p-item-display").text(listItemsRandom[0]);
         
         var l = listItems.length;
