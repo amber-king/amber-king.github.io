@@ -20,6 +20,8 @@ $(document).ready(function() {
         $(".p-panel-1").hide();
         $(".p-panel-2").show();
         
+        $(".p-list-display-btn").setAttribute("data-content", "hi");
+        
         listChosen = $(".form-control").val();
         
         switch (listChosen) {
@@ -65,8 +67,6 @@ $(document).ready(function() {
         }
         
         listItemsRandom = shuffleArray(listItems).slice();
-        
-        $(".p-list-display-btn").setAttribute("data-content", "hi");
         
         $(".p-item-display").text(listItemsRandom[0]);
         
