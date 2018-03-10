@@ -54,7 +54,7 @@ $(document).ready(function() {
                 listItems = level10.slice();
         }
         
-        $(".p-list-display-btn").load("practice-mode.html")
+        
         $(".p-list-display-btn").attr("data-content", "test");
         
         function shuffleArray(array) {
