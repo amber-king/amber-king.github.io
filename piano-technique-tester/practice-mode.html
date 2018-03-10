@@ -279,7 +279,7 @@
                 <div class="panel-body">
                     <div class="btn-toolbar">
                         <button type="button" class="p-pm-start-btn btn btn-lg btn-primary">Restart</button>
-                        <button type="button" class="p-help-btn btn btn-warning btn-circle pull-right"><i class="glyphicon glyphicon-question-sign"></i></button>
+                        <button type="button" class="p-help-btn btn btn-warning btn-circle pull-right" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"><i class="glyphicon glyphicon-question-sign"></i></button>
                         <button type="button" class="p-list-display-btn btn btn-info btn-circle pull-right"><i class="glyphicon glyphicon-list"></i></button>
                     </div>
                     <hr>
@@ -318,6 +318,11 @@
     
     <!-- Practice Javascript -->
     <script src="js/practice-pre-made.js"></script>
+    
+    <script>
+        $("[data-toggle=popover]")
+        .popover()
+    </script>
 
 </body>
 
