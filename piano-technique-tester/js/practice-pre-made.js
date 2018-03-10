@@ -54,9 +54,14 @@ $(document).ready(function() {
                 listItems = level10.slice();
         }
         
+        $.fn.redraw = function() {
+            $(this).each(function() {
+                var redraw = this.offsetHeight;
+            });
+        };
         
         $(".p-list-display-btn").attr("data-content", "test");
-        $(".p-list-display-btn").load();
+        $(".p-list-display-btn").redraw();
         
         function shuffleArray(array) {
             for (var i = array.length - 1; i > 0; i--) {
