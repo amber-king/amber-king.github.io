@@ -13,8 +13,6 @@ var listItems = [];
 var listItemsRandom = [];
 
 $(document).ready(function() {
-    $(".p-list-display-btn").attr("data-content", "test");
-    
     $(".p-panel-2").hide();
     
     $(".p-pm-start-btn").on("click", function() {
@@ -23,6 +21,9 @@ $(document).ready(function() {
         $(".p-panel-2").show();
         
         listChosen = $(".form-control").val();
+        
+        $(".p-list-display-btn").load("practice-mode.html")
+        $(".p-list-display-btn").attr("data-content", "test");
         
         switch (listChosen) {
             case "Level 1":
