@@ -13,14 +13,14 @@ var listItems = [];
 var listItemsRandom = [];
 
 $(document).ready(function() {
+    $(".p-list-display-btn").attr("data-content", "test");
+    
     $(".p-panel-2").hide();
     
     $(".p-pm-start-btn").on("click", function() {
         event.preventDefault();
         $(".p-panel-1").hide();
         $(".p-panel-2").show();
-        
-        $(".p-list-display-btn").attr("data-content", "test");
         
         listChosen = $(".form-control").val();
         
