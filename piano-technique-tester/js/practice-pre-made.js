@@ -54,8 +54,8 @@ $(document).ready(function() {
                 listItems = level10.slice();
         }
         
-        $(".p-list-display-btn").attr("data-content", "hello");
-        $(".p-list-display-btn").load(practice-mode.html + " .p-list-display-btn");
+        var popover = $(".p-list-display-btn").data("amber");
+        popover.setContent();
         
         function shuffleArray(array) {
             for (var i = array.length - 1; i > 0; i--) {
