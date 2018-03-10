@@ -20,9 +20,6 @@ $(document).ready(function() {
         $(".p-panel-1").hide();
         $(".p-panel-2").show();
         
-        $(".p-list-display-btn").removeAttribute("data-content");
-        $(".p-list-display-btn").getAttribute("data-content");
-        
         listChosen = $(".form-control").val();
         
         switch (listChosen) {
