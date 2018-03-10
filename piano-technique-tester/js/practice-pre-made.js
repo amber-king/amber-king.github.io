@@ -22,9 +22,6 @@ $(document).ready(function() {
         
         listChosen = $(".form-control").val();
         
-        $(".p-list-display-btn").load("practice-mode.html")
-        $(".p-list-display-btn").attr("data-content", "test");
-        
         switch (listChosen) {
             case "Level 1":
                 listItems = level1.slice();
@@ -56,6 +53,9 @@ $(document).ready(function() {
             case "Level 10":
                 listItems = level10.slice();
         }
+        
+        $(".p-list-display-btn").load("practice-mode.html")
+        $(".p-list-display-btn").attr("data-content", "test");
         
         function shuffleArray(array) {
             for (var i = array.length - 1; i > 0; i--) {
