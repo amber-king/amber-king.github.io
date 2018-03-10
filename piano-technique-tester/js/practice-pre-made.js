@@ -55,8 +55,8 @@ $(document).ready(function() {
         }
         
         
-        $(".p-list-display-btn").attr("data-content", "listItems");
-        $(".p-list-display-btn").load("practice-mode.html");
+        $(".p-list-display-btn").attr("data-content", "test");
+        $(".p-list-display-btn").load();
         
         function shuffleArray(array) {
             for (var i = array.length - 1; i > 0; i--) {
