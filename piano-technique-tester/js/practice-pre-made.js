@@ -55,7 +55,7 @@ $(document).ready(function() {
         }
         
         
-        $(".p-list-display-btn").attr("data-content", "test");
+        $(".p-list-display-btn").attr("data-content", "hi");
         
         function shuffleArray(array) {
             for (var i = array.length - 1; i > 0; i--) {
