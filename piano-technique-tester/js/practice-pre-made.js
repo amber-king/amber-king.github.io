@@ -54,9 +54,6 @@ $(document).ready(function() {
                 listItems = level10.slice();
         }
         
-        var popover = $(".p-list-display-btn").data("amber");
-        popover.setContent();
-        
         function shuffleArray(array) {
             for (var i = array.length - 1; i > 0; i--) {
                 var j = Math.floor(Math.random() * (i + 1));
