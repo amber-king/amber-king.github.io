@@ -54,7 +54,12 @@ $(document).ready(function() {
                 listItems = level10.slice();
         }
         
+        // Test
+        $(".p-list-display-btn").on("click", function() {
+            $(this).attr("data-content", "hi");
+        });
         
+        //
         
         function shuffleArray(array) {
             for (var i = array.length - 1; i > 0; i--) {
