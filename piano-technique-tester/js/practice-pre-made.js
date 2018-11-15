@@ -56,7 +56,7 @@ $(document).ready(function() {
         
         // Test
         $(".p-list-display-btn").on("click", function() {
-            $(this).attr("data-content", "hi");
+            $(this).attr("data-content", "test");
         });
         
         //
